@@ -6,7 +6,7 @@
         {% if child.children %} dropdown{% endif %}">
         {% if child.children %}
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                {{ child.get_menu_title }}
+                {{ child.get_menu_title }} test
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 {% show_menu from_level to_level extra_inactive extra_active template "" "" child %}
